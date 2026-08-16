@@ -1,5 +1,1268 @@
 {
   "version": 1,
-  "sources": [],
-  "entries": []
+  "sources": [
+    {
+      "id": 1,
+      "name": "8일 베트남어단어 80개 - 송유리",
+      "createdUtc": "2026-08-16T10:39:15.953Z"
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "vi": "tay",
+      "pronNorth": "따이",
+      "pronSouth": null,
+      "ko": "손",
+      "sourceId": 1,
+      "contexts": [
+        "rửa tay (손을 씻다)"
+      ]
+    },
+    {
+      "id": 2,
+      "vi": "ly",
+      "pronNorth": "리",
+      "pronSouth": null,
+      "ko": "잔, 컵 (남부에서 주로 사용)",
+      "sourceId": 1,
+      "contexts": [
+        "잔 - ly (리) / cốc (꼽)"
+      ]
+    },
+    {
+      "id": 3,
+      "vi": "cốc",
+      "pronNorth": "꼽",
+      "pronSouth": null,
+      "ko": "잔, 컵 (북부에서 주로 사용)",
+      "sourceId": 1,
+      "contexts": [
+        "잔 - ly (리) / cốc (꼽)"
+      ]
+    },
+    {
+      "id": 4,
+      "vi": "sách",
+      "pronNorth": "싸잎",
+      "pronSouth": "싹",
+      "ko": "책",
+      "sourceId": 1,
+      "contexts": [
+        "đọc sách (책을 읽다)"
+      ]
+    },
+    {
+      "id": 5,
+      "vi": "rửa",
+      "pronNorth": "즈어",
+      "pronSouth": "르어",
+      "ko": "씻다",
+      "sourceId": 1,
+      "contexts": [
+        "rửa tay (손을 씻다)"
+      ]
+    },
+    {
+      "id": 6,
+      "vi": "nấu",
+      "pronNorth": "너우",
+      "pronSouth": null,
+      "ko": "끓이다",
+      "sourceId": 1,
+      "contexts": [
+        "nấu 신라면 (신라면을 끓이다)"
+      ]
+    },
+    {
+      "id": 7,
+      "vi": "viết",
+      "pronNorth": "비엣",
+      "pronSouth": "비엑",
+      "ko": "쓰다",
+      "sourceId": 1,
+      "contexts": [
+        "쓰다 - viết (비엣 / 비엑)"
+      ]
+    },
+    {
+      "id": 8,
+      "vi": "uống",
+      "pronNorth": "우옹",
+      "pronSouth": "웅",
+      "ko": "마시다",
+      "sourceId": 1,
+      "contexts": [
+        "uống bia (맥주를 마시다)"
+      ]
+    },
+    {
+      "id": 9,
+      "vi": "rót",
+      "pronNorth": "졋",
+      "pronSouth": "록",
+      "ko": "따르다",
+      "sourceId": 1,
+      "contexts": [
+        "rót bia (맥주를 따르다)"
+      ]
+    },
+    {
+      "id": 10,
+      "vi": "pha",
+      "pronNorth": "파",
+      "pronSouth": null,
+      "ko": "타다 (커피·차를 물에 개어 만들다)",
+      "sourceId": 1,
+      "contexts": [
+        "pha (커피 좀 타줘)"
+      ]
+    },
+    {
+      "id": 11,
+      "vi": "đọc",
+      "pronNorth": "럽",
+      "pronSouth": null,
+      "ko": "읽다",
+      "sourceId": 1,
+      "contexts": [
+        "đọc sách (책을 읽다)"
+      ]
+    },
+    {
+      "id": 12,
+      "vi": "mua",
+      "pronNorth": "무어",
+      "pronSouth": null,
+      "ko": "사다",
+      "sourceId": 1,
+      "contexts": [
+        "mua sách (책을 사다)"
+      ]
+    },
+    {
+      "id": 13,
+      "vi": "bia",
+      "pronNorth": "비어",
+      "pronSouth": null,
+      "ko": "맥주",
+      "sourceId": 1,
+      "contexts": [
+        "uống bia (맥주를 마시다)"
+      ]
+    },
+    {
+      "id": 14,
+      "vi": "nấu ăn",
+      "pronNorth": "너우 안",
+      "pronSouth": null,
+      "ko": "요리하다",
+      "sourceId": 1,
+      "contexts": [
+        "요리하다 - nấu ăn (너우 안)"
+      ]
+    },
+    {
+      "id": 15,
+      "vi": "sôi",
+      "pronNorth": "소이",
+      "pronSouth": null,
+      "ko": "끓다 (물 등이 스스로 끓는 상태)",
+      "sourceId": 1,
+      "contexts": [
+        "sôi(소이)는 \"끓다\"라는 뜻으로, 물이 보글보글 끓는 상태 자체를 말합니다"
+      ]
+    },
+    {
+      "id": 16,
+      "vi": "mặt",
+      "pronNorth": "맛",
+      "pronSouth": "막",
+      "ko": "얼굴",
+      "sourceId": 1,
+      "contexts": [
+        "rửa mặt"
+      ]
+    },
+    {
+      "id": 17,
+      "vi": "cơm",
+      "pronNorth": "껌",
+      "pronSouth": null,
+      "ko": "밥",
+      "sourceId": 1,
+      "contexts": [
+        "Mẹ đang nấu cơm."
+      ]
+    },
+    {
+      "id": 18,
+      "vi": "bút",
+      "pronNorth": "붓",
+      "pronSouth": "붑",
+      "ko": "펜",
+      "sourceId": 1,
+      "contexts": [
+        "mượn bút"
+      ]
+    },
+    {
+      "id": 19,
+      "vi": "lau",
+      "pronNorth": "라우",
+      "pronSouth": null,
+      "ko": "닦다",
+      "sourceId": 1,
+      "contexts": [
+        "lau mặt"
+      ]
+    },
+    {
+      "id": 20,
+      "vi": "bôi",
+      "pronNorth": "보이",
+      "pronSouth": null,
+      "ko": "바르다",
+      "sourceId": 1,
+      "contexts": [
+        "bôi"
+      ]
+    },
+    {
+      "id": 21,
+      "vi": "trang điểm",
+      "pronNorth": "짱 니엠",
+      "pronSouth": "쨩 니엠",
+      "ko": "화장하다",
+      "sourceId": 1,
+      "contexts": [
+        "trang điểm"
+      ]
+    },
+    {
+      "id": 22,
+      "vi": "nấu cơm",
+      "pronNorth": "노우 껌",
+      "pronSouth": null,
+      "ko": "밥을 하다",
+      "sourceId": 1,
+      "contexts": [
+        "Mẹ đang nấu cơm."
+      ]
+    },
+    {
+      "id": 23,
+      "vi": "ăn",
+      "pronNorth": "안",
+      "pronSouth": "앙",
+      "ko": "먹다",
+      "sourceId": 1,
+      "contexts": [
+        "ăn cơm"
+      ]
+    },
+    {
+      "id": 24,
+      "vi": "dọn",
+      "pronNorth": "전",
+      "pronSouth": "영",
+      "ko": "차리다; 치우다",
+      "sourceId": 1,
+      "contexts": [
+        "dọn cơm"
+      ]
+    },
+    {
+      "id": 25,
+      "vi": "mượn",
+      "pronNorth": "문",
+      "pronSouth": "뭉",
+      "ko": "대가 없이 빌리다; 공짜로 빌리다",
+      "sourceId": 1,
+      "contexts": [
+        "mượn bút"
+      ]
+    },
+    {
+      "id": 26,
+      "vi": "cho mượn",
+      "pronNorth": "쩌 문",
+      "pronSouth": "쩌 뭉",
+      "ko": "빌려주다; 공짜로 빌려주다",
+      "sourceId": 1,
+      "contexts": [
+        "cho mượn bút"
+      ]
+    },
+    {
+      "id": 27,
+      "vi": "đang",
+      "pronNorth": "땅",
+      "pronSouth": null,
+      "ko": "~하고 있는 중이다",
+      "sourceId": 1,
+      "contexts": [
+        "Mẹ đang nấu cơm."
+      ]
+    },
+    {
+      "id": 28,
+      "vi": "rửa mặt",
+      "pronNorth": "즈어 맛",
+      "pronSouth": "르어 막",
+      "ko": "얼굴을 씻다",
+      "sourceId": 1,
+      "contexts": [
+        "rửa mặt"
+      ]
+    },
+    {
+      "id": 29,
+      "vi": "ăn cơm",
+      "pronNorth": "안 껌",
+      "pronSouth": "앙 껌",
+      "ko": "밥을 먹다",
+      "sourceId": 1,
+      "contexts": [
+        "ăn cơm"
+      ]
+    },
+    {
+      "id": 30,
+      "vi": "dọn cơm",
+      "pronNorth": "전 껌",
+      "pronSouth": "영 껌",
+      "ko": "밥상을 차리다; 밥상을 치우다",
+      "sourceId": 1,
+      "contexts": [
+        "dọn cơm"
+      ]
+    },
+    {
+      "id": 31,
+      "vi": "mượn bút",
+      "pronNorth": "문 붓",
+      "pronSouth": "뭉 붑",
+      "ko": "펜을 빌리다",
+      "sourceId": 1,
+      "contexts": [
+        "mượn bút"
+      ]
+    },
+    {
+      "id": 32,
+      "vi": "cho mượn bút",
+      "pronNorth": "쩌 문 붓",
+      "pronSouth": "쩌 뭉 붑",
+      "ko": "펜을 빌려주다",
+      "sourceId": 1,
+      "contexts": [
+        "cho mượn bút"
+      ]
+    },
+    {
+      "id": 33,
+      "vi": "bàn",
+      "pronNorth": "반",
+      "pronSouth": "방",
+      "ko": "책상; 테이블",
+      "sourceId": 1,
+      "contexts": [
+        "đặt bàn"
+      ]
+    },
+    {
+      "id": 34,
+      "vi": "ghế",
+      "pronNorth": "게",
+      "pronSouth": null,
+      "ko": "의자",
+      "sourceId": 1,
+      "contexts": [
+        "ngồi ở ghế"
+      ]
+    },
+    {
+      "id": 35,
+      "vi": "nhà",
+      "pronNorth": "냐",
+      "pronSouth": null,
+      "ko": "집",
+      "sourceId": 1,
+      "contexts": [
+        "dọn nhà"
+      ]
+    },
+    {
+      "id": 36,
+      "vi": "học",
+      "pronNorth": "헙",
+      "pronSouth": null,
+      "ko": "배우다; 공부하다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi đang học bài ở bàn."
+      ]
+    },
+    {
+      "id": 37,
+      "vi": "học bài",
+      "pronNorth": "헙 바이",
+      "pronSouth": null,
+      "ko": "공부하다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi đang học bài ở bàn."
+      ]
+    },
+    {
+      "id": 38,
+      "vi": "chơi",
+      "pronNorth": "쩌이",
+      "pronSouth": null,
+      "ko": "놀다; 하다; 연주하다",
+      "sourceId": 1,
+      "contexts": [
+        "chơi game"
+      ]
+    },
+    {
+      "id": 39,
+      "vi": "chơi game",
+      "pronNorth": "쩌이 게임",
+      "pronSouth": null,
+      "ko": "게임하다",
+      "sourceId": 1,
+      "contexts": [
+        "chơi game"
+      ]
+    },
+    {
+      "id": 40,
+      "vi": "đặt",
+      "pronNorth": "닫",
+      "pronSouth": "닥",
+      "ko": "예약하다; 놓다",
+      "sourceId": 1,
+      "contexts": [
+        "đặt bàn"
+      ]
+    },
+    {
+      "id": 41,
+      "vi": "đặt bàn",
+      "pronNorth": "닫 반",
+      "pronSouth": "닥 방",
+      "ko": "테이블을 예약하다",
+      "sourceId": 1,
+      "contexts": [
+        "đặt bàn"
+      ]
+    },
+    {
+      "id": 42,
+      "vi": "ngồi",
+      "pronNorth": "응오이",
+      "pronSouth": null,
+      "ko": "앉다",
+      "sourceId": 1,
+      "contexts": [
+        "ngồi ở ghế"
+      ]
+    },
+    {
+      "id": 43,
+      "vi": "đứng",
+      "pronNorth": "등",
+      "pronSouth": null,
+      "ko": "서다; 일어서다",
+      "sourceId": 1,
+      "contexts": [
+        "ngồi rồi đứng lên"
+      ]
+    },
+    {
+      "id": 44,
+      "vi": "mướn",
+      "pronNorth": "므언",
+      "pronSouth": "므엉",
+      "ko": "돈 주고 빌리다; 렌트하다",
+      "sourceId": 1,
+      "contexts": [
+        "mướn nhà"
+      ]
+    },
+    {
+      "id": 45,
+      "vi": "thuê",
+      "pronNorth": "퉤",
+      "pronSouth": null,
+      "ko": "빌리다; 임대하다",
+      "sourceId": 1,
+      "contexts": [
+        "thuê nhà"
+      ]
+    },
+    {
+      "id": 46,
+      "vi": "cho",
+      "pronNorth": "쪄",
+      "pronSouth": null,
+      "ko": "주다; ~에게; 주다",
+      "sourceId": 1,
+      "contexts": [
+        "cho thuê",
+        "nhắn tin cho bạn"
+      ]
+    },
+    {
+      "id": 47,
+      "vi": "cho mướn",
+      "pronNorth": "쪄 므언",
+      "pronSouth": "쪄 므엉",
+      "ko": "렌트해 주다",
+      "sourceId": 1,
+      "contexts": [
+        "cho mướn nhà"
+      ]
+    },
+    {
+      "id": 48,
+      "vi": "cho thuê",
+      "pronNorth": "쪄 퉤",
+      "pronSouth": null,
+      "ko": "임대해 주다",
+      "sourceId": 1,
+      "contexts": [
+        "Nhà này cho thuê."
+      ]
+    },
+    {
+      "id": 49,
+      "vi": "dọn nhà",
+      "pronNorth": "전 냐",
+      "pronSouth": "연 냐",
+      "ko": "집을 치우다",
+      "sourceId": 1,
+      "contexts": [
+        "dọn nhà"
+      ]
+    },
+    {
+      "id": 50,
+      "vi": "lau bàn",
+      "pronNorth": "라우 반",
+      "pronSouth": "라우 방",
+      "ko": "책상을 닦다",
+      "sourceId": 1,
+      "contexts": [
+        "lau bàn"
+      ]
+    },
+    {
+      "id": 51,
+      "vi": "ở",
+      "pronNorth": "어",
+      "pronSouth": null,
+      "ko": "~에; ~에서",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi đang học bài ở bàn."
+      ]
+    },
+    {
+      "id": 52,
+      "vi": "Nhà này cho thuê",
+      "pronNorth": "냐 나이 쪄 퉤",
+      "pronSouth": null,
+      "ko": "이 집은 임대합니다",
+      "sourceId": 1,
+      "contexts": [
+        "Nhà này cho thuê."
+      ]
+    },
+    {
+      "id": 53,
+      "vi": "phòng",
+      "pronNorth": "펌",
+      "pronSouth": null,
+      "ko": "방",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi ngủ trong phòng."
+      ]
+    },
+    {
+      "id": 54,
+      "vi": "cửa",
+      "pronNorth": "끄어",
+      "pronSouth": null,
+      "ko": "문",
+      "sourceId": 1,
+      "contexts": [
+        "mở cửa"
+      ]
+    },
+    {
+      "id": 55,
+      "vi": "xe",
+      "pronNorth": "세",
+      "pronSouth": null,
+      "ko": "차; 탈것",
+      "sourceId": 1,
+      "contexts": [
+        "đi xe"
+      ]
+    },
+    {
+      "id": 56,
+      "vi": "ngủ",
+      "pronNorth": "응우",
+      "pronSouth": null,
+      "ko": "자다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi ngủ trong phòng."
+      ]
+    },
+    {
+      "id": 57,
+      "vi": "thức dậy",
+      "pronNorth": "특 저이",
+      "pronSouth": "특 여이",
+      "ko": "일어나다; 잠에서 깨다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi thức dậy lúc 6 giờ."
+      ]
+    },
+    {
+      "id": 58,
+      "vi": "tắm",
+      "pronNorth": "땀",
+      "pronSouth": null,
+      "ko": "샤워하다; 목욕하다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi tắm rồi thay áo."
+      ]
+    },
+    {
+      "id": 59,
+      "vi": "thay áo",
+      "pronNorth": "타이 아오",
+      "pronSouth": null,
+      "ko": "옷을 갈아입다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi tắm rồi thay áo."
+      ]
+    },
+    {
+      "id": 60,
+      "vi": "mở",
+      "pronNorth": "머",
+      "pronSouth": null,
+      "ko": "열다",
+      "sourceId": 1,
+      "contexts": [
+        "mở cửa"
+      ]
+    },
+    {
+      "id": 61,
+      "vi": "đóng",
+      "pronNorth": "덤",
+      "pronSouth": null,
+      "ko": "닫다",
+      "sourceId": 1,
+      "contexts": [
+        "đóng cửa"
+      ]
+    },
+    {
+      "id": 62,
+      "vi": "mở cửa",
+      "pronNorth": "머 끄어",
+      "pronSouth": null,
+      "ko": "문을 열다; 영업 시작",
+      "sourceId": 1,
+      "contexts": [
+        "Mấy giờ mở cửa?"
+      ]
+    },
+    {
+      "id": 63,
+      "vi": "đóng cửa",
+      "pronNorth": "덤 끄어",
+      "pronSouth": null,
+      "ko": "문을 닫다; 영업 종료",
+      "sourceId": 1,
+      "contexts": [
+        "Mấy giờ đóng cửa?"
+      ]
+    },
+    {
+      "id": 64,
+      "vi": "máy",
+      "pronNorth": "마이",
+      "pronSouth": null,
+      "ko": "기계",
+      "sourceId": 1,
+      "contexts": [
+        "xe máy"
+      ]
+    },
+    {
+      "id": 65,
+      "vi": "xe máy",
+      "pronNorth": "세 마이",
+      "pronSouth": null,
+      "ko": "오토바이",
+      "sourceId": 1,
+      "contexts": [
+        "đi xe máy"
+      ]
+    },
+    {
+      "id": 66,
+      "vi": "đi",
+      "pronNorth": "리",
+      "pronSouth": null,
+      "ko": "가다; 타고 가다",
+      "sourceId": 1,
+      "contexts": [
+        "đi xe máy"
+      ]
+    },
+    {
+      "id": 67,
+      "vi": "rồi",
+      "pronNorth": "로이",
+      "pronSouth": null,
+      "ko": "~한 뒤; 그리고 나서",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi tắm rồi thay áo.",
+        "Tôi giặt khăn rồi phơi."
+      ]
+    },
+    {
+      "id": 68,
+      "vi": "trong",
+      "pronNorth": "쫑",
+      "pronSouth": null,
+      "ko": "~안에서",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi ngủ trong phòng."
+      ]
+    },
+    {
+      "id": 69,
+      "vi": "phòng học",
+      "pronNorth": "펌 헙",
+      "pronSouth": null,
+      "ko": "공부방",
+      "sourceId": 1,
+      "contexts": [
+        "phòng học"
+      ]
+    },
+    {
+      "id": 70,
+      "vi": "phòng ăn",
+      "pronNorth": "펌 안",
+      "pronSouth": null,
+      "ko": "식당; 다이닝룸",
+      "sourceId": 1,
+      "contexts": [
+        "phòng ăn"
+      ]
+    },
+    {
+      "id": 71,
+      "vi": "đặt phòng",
+      "pronNorth": "닫 펌",
+      "pronSouth": "닥 펌",
+      "ko": "방을 예약하다",
+      "sourceId": 1,
+      "contexts": [
+        "đặt phòng"
+      ]
+    },
+    {
+      "id": 72,
+      "vi": "thuê phòng",
+      "pronNorth": "퉤 펌",
+      "pronSouth": null,
+      "ko": "방을 빌리다",
+      "sourceId": 1,
+      "contexts": [
+        "thuê phòng"
+      ]
+    },
+    {
+      "id": 73,
+      "vi": "dọn phòng",
+      "pronNorth": "전 펌",
+      "pronSouth": "연 펌",
+      "ko": "방을 치우다",
+      "sourceId": 1,
+      "contexts": [
+        "dọn phòng"
+      ]
+    },
+    {
+      "id": 74,
+      "vi": "Mấy giờ mở cửa?",
+      "pronNorth": "머이 저 머 끄어",
+      "pronSouth": null,
+      "ko": "몇 시에 문 열어요?",
+      "sourceId": 1,
+      "contexts": [
+        "Mấy giờ mở cửa?"
+      ]
+    },
+    {
+      "id": 75,
+      "vi": "giường",
+      "pronNorth": "즈엉",
+      "pronSouth": "융",
+      "ko": "침대",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi nằm trên giường."
+      ]
+    },
+    {
+      "id": 76,
+      "vi": "khăn",
+      "pronNorth": "칸",
+      "pronSouth": null,
+      "ko": "수건",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi giặt khăn rồi phơi và gấp."
+      ]
+    },
+    {
+      "id": 77,
+      "vi": "quần",
+      "pronNorth": "권",
+      "pronSouth": "웡",
+      "ko": "바지",
+      "sourceId": 1,
+      "contexts": [
+        "quần áo"
+      ]
+    },
+    {
+      "id": 78,
+      "vi": "áo",
+      "pronNorth": "아오",
+      "pronSouth": null,
+      "ko": "옷",
+      "sourceId": 1,
+      "contexts": [
+        "mặc áo"
+      ]
+    },
+    {
+      "id": 79,
+      "vi": "quần áo",
+      "pronNorth": "권 아오",
+      "pronSouth": "웡 아오",
+      "ko": "의류",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi mặc quần áo."
+      ]
+    },
+    {
+      "id": 80,
+      "vi": "nằm",
+      "pronNorth": "남",
+      "pronSouth": null,
+      "ko": "눕다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi nằm trên giường."
+      ]
+    },
+    {
+      "id": 81,
+      "vi": "nhắn tin",
+      "pronNorth": "냥 띤",
+      "pronSouth": "냥 띠인",
+      "ko": "메시지를 보내다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi nằm trên giường rồi nhắn tin cho bạn."
+      ]
+    },
+    {
+      "id": 82,
+      "vi": "giặt",
+      "pronNorth": "잣",
+      "pronSouth": "약",
+      "ko": "세탁하다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi giặt khăn."
+      ]
+    },
+    {
+      "id": 83,
+      "vi": "máy giặt",
+      "pronNorth": "마이 잣",
+      "pronSouth": "마이 약",
+      "ko": "세탁기",
+      "sourceId": 1,
+      "contexts": [
+        "máy giặt"
+      ]
+    },
+    {
+      "id": 84,
+      "vi": "phơi",
+      "pronNorth": "퍼이",
+      "pronSouth": null,
+      "ko": "널다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi giặt khăn rồi phơi."
+      ]
+    },
+    {
+      "id": 85,
+      "vi": "gấp",
+      "pronNorth": "갑",
+      "pronSouth": null,
+      "ko": "접다; 개다",
+      "sourceId": 1,
+      "contexts": [
+        "gấp khăn"
+      ]
+    },
+    {
+      "id": 86,
+      "vi": "mặc",
+      "pronNorth": "막",
+      "pronSouth": null,
+      "ko": "입다",
+      "sourceId": 1,
+      "contexts": [
+        "mặc áo"
+      ]
+    },
+    {
+      "id": 87,
+      "vi": "cởi",
+      "pronNorth": "꺼이",
+      "pronSouth": null,
+      "ko": "벗다",
+      "sourceId": 1,
+      "contexts": [
+        "cởi áo"
+      ]
+    },
+    {
+      "id": 88,
+      "vi": "trên",
+      "pronNorth": "쩐",
+      "pronSouth": null,
+      "ko": "~위에",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi nằm trên giường."
+      ]
+    },
+    {
+      "id": 89,
+      "vi": "bạn",
+      "pronNorth": "반",
+      "pronSouth": null,
+      "ko": "친구; 너",
+      "sourceId": 1,
+      "contexts": [
+        "nhắn tin cho bạn"
+      ]
+    },
+    {
+      "id": 90,
+      "vi": "bằng",
+      "pronNorth": "방",
+      "pronSouth": null,
+      "ko": "~으로; ~수단으로",
+      "sourceId": 1,
+      "contexts": [
+        "đi bằng xe"
+      ]
+    },
+    {
+      "id": 91,
+      "vi": "đi bằng xe",
+      "pronNorth": "리 방 세",
+      "pronSouth": null,
+      "ko": "차로 가다",
+      "sourceId": 1,
+      "contexts": [
+        "đi bằng xe"
+      ]
+    },
+    {
+      "id": 92,
+      "vi": "máy bay",
+      "pronNorth": "마이 바이",
+      "pronSouth": null,
+      "ko": "비행기",
+      "sourceId": 1,
+      "contexts": [
+        "máy bay"
+      ]
+    },
+    {
+      "id": 93,
+      "vi": "điện thoại",
+      "pronNorth": "니엔 토아이",
+      "pronSouth": "냉 둬이",
+      "ko": "전화기",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi gọi điện thoại cho bạn."
+      ]
+    },
+    {
+      "id": 94,
+      "vi": "tủ",
+      "pronNorth": "뚜",
+      "pronSouth": null,
+      "ko": "장롱; 수납장",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi bỏ áo vào tủ."
+      ]
+    },
+    {
+      "id": 95,
+      "vi": "đèn",
+      "pronNorth": "낸",
+      "pronSouth": "냉",
+      "ko": "불; 전등",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi tắt đèn rồi ngủ."
+      ]
+    },
+    {
+      "id": 96,
+      "vi": "gọi",
+      "pronNorth": "걸",
+      "pronSouth": null,
+      "ko": "전화를 걸다; 부르다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi gọi điện thoại cho bạn."
+      ]
+    },
+    {
+      "id": 97,
+      "vi": "gọi điện thoại",
+      "pronNorth": "걸 니엔 토아이",
+      "pronSouth": "걸 냉 둬이",
+      "ko": "전화를 걸다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi gọi điện thoại cho bạn."
+      ]
+    },
+    {
+      "id": 98,
+      "vi": "nói chuyện",
+      "pronNorth": "너이 쥐엔",
+      "pronSouth": null,
+      "ko": "이야기하다; 대화하다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi gọi điện rồi nói chuyện với bạn."
+      ]
+    },
+    {
+      "id": 99,
+      "vi": "pin",
+      "pronNorth": "삔",
+      "pronSouth": null,
+      "ko": "배터리",
+      "sourceId": 1,
+      "contexts": [
+        "Pin yếu nên tôi sạc pin."
+      ]
+    },
+    {
+      "id": 100,
+      "vi": "sạc pin",
+      "pronNorth": "삭 삔",
+      "pronSouth": null,
+      "ko": "배터리를 충전하다",
+      "sourceId": 1,
+      "contexts": [
+        "Pin yếu nên tôi sạc pin."
+      ]
+    },
+    {
+      "id": 101,
+      "vi": "bỏ vào",
+      "pronNorth": "머 와우",
+      "pronSouth": null,
+      "ko": "넣다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi bỏ áo vào tủ."
+      ]
+    },
+    {
+      "id": 102,
+      "vi": "lấy ra",
+      "pronNorth": "러이 자",
+      "pronSouth": "러이 라",
+      "ko": "꺼내다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi lấy áo ra."
+      ]
+    },
+    {
+      "id": 103,
+      "vi": "bỏ áo vào",
+      "pronNorth": "머 아오 와우",
+      "pronSouth": null,
+      "ko": "옷을 넣다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi bỏ áo vào tủ."
+      ]
+    },
+    {
+      "id": 104,
+      "vi": "lấy áo ra",
+      "pronNorth": "러이 아오 자",
+      "pronSouth": "러이 아오 라",
+      "ko": "옷을 꺼내다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi lấy áo ra."
+      ]
+    },
+    {
+      "id": 105,
+      "vi": "bật",
+      "pronNorth": "멋",
+      "pronSouth": "먹",
+      "ko": "켜다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi bật đèn."
+      ]
+    },
+    {
+      "id": 106,
+      "vi": "tắt",
+      "pronNorth": "딱",
+      "pronSouth": "닥",
+      "ko": "끄다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi tắt đèn rồi ngủ."
+      ]
+    },
+    {
+      "id": 107,
+      "vi": "bật đèn",
+      "pronNorth": "멋 낸",
+      "pronSouth": "먹 냉",
+      "ko": "불을 켜다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi bật đèn."
+      ]
+    },
+    {
+      "id": 108,
+      "vi": "tắt đèn",
+      "pronNorth": "딱 낸",
+      "pronSouth": "닥 냉",
+      "ko": "불을 끄다",
+      "sourceId": 1,
+      "contexts": [
+        "Tôi tắt đèn rồi ngủ."
+      ]
+    },
+    {
+      "id": 109,
+      "vi": "tủ áo",
+      "pronNorth": "뚜 아오",
+      "pronSouth": null,
+      "ko": "옷장",
+      "sourceId": 1,
+      "contexts": [
+        "tủ áo"
+      ]
+    },
+    {
+      "id": 110,
+      "vi": "tủ sách",
+      "pronNorth": "뚜 싸잇",
+      "pronSouth": null,
+      "ko": "책장",
+      "sourceId": 1,
+      "contexts": [
+        "tủ sách"
+      ]
+    },
+    {
+      "id": 111,
+      "vi": "đèn bàn",
+      "pronNorth": "낸 반",
+      "pronSouth": "냉 방",
+      "ko": "책상 조명; 스탠드",
+      "sourceId": 1,
+      "contexts": [
+        "đèn bàn"
+      ]
+    },
+    {
+      "id": 112,
+      "vi": "đèn học",
+      "pronNorth": "낸 헙",
+      "pronSouth": "냉 헙",
+      "ko": "공부용 스탠드",
+      "sourceId": 1,
+      "contexts": [
+        "đèn học"
+      ]
+    },
+    {
+      "id": 113,
+      "vi": "vào",
+      "pronNorth": "와우",
+      "pronSouth": null,
+      "ko": "들어가다; 안으로",
+      "sourceId": 1,
+      "contexts": [
+        "bỏ áo vào tủ"
+      ]
+    },
+    {
+      "id": 114,
+      "vi": "ra",
+      "pronNorth": "자",
+      "pronSouth": "라",
+      "ko": "나가다; 밖으로",
+      "sourceId": 1,
+      "contexts": [
+        "lấy áo ra"
+      ]
+    }
+  ]
 }
