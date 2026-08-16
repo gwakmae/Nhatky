@@ -1324,6 +1324,501 @@
         "Mình đã đến Đà Nẵng du lịch.",
         "Mình tên là Seon Hee, một sinh viên đại học đến từ Hàn Quốc."
       ]
+    },
+    {
+      "id": 116,
+      "vi": "bắt đầu",
+      "pronNorth": "밭 더우",
+      "pronSouth": null,
+      "ko": "시작하다",
+      "sourceId": 2,
+      "contexts": [
+        "Mọi chuyện bắt đầu từ một chiếc bánh xèo."
+      ]
+    },
+    {
+      "id": 117,
+      "vi": "chỉ cần ~ thôi là",
+      "pronNorth": "찡 깐 ~ 토이 라",
+      "pronSouth": null,
+      "ko": "~하기만 하면 (충분하다)",
+      "sourceId": 2,
+      "contexts": [
+        "Chỉ cần được ở Việt Nam thôi là mình thấy hạnh phúc lắm."
+      ]
+    },
+    {
+      "id": 118,
+      "vi": "càng ~ càng ~",
+      "pronNorth": "깡 ~ 깡 ~",
+      "pronSouth": null,
+      "ko": "~할수록 점점 더 ~하다",
+      "sourceId": 2,
+      "contexts": [
+        "Càng tìm hiểu về ẩm thực Việt Nam, mình càng muốn biết nhiều hơn về đất nước này."
+      ]
+    },
+    {
+      "id": 119,
+      "vi": "chính + N + đã + V",
+      "pronNorth": "찡 + N + 다 + V",
+      "pronSouth": null,
+      "ko": "바로 그 N이 V했다 (강조)",
+      "sourceId": 2,
+      "contexts": [
+        "Chính chiếc bánh xèo ấy đã giúp mình hiểu Việt Nam sâu sắc hơn."
+      ]
+    },
+    {
+      "id": 120,
+      "vi": "không chỉ ~ mà còn ~",
+      "pronNorth": "콩 찡 ~ 마 꼰 ~",
+      "pronSouth": null,
+      "ko": "~뿐만 아니라 ~도",
+      "sourceId": 2,
+      "contexts": [
+        "Mình không chỉ bị thu hút bởi những phong cảnh đẹp mà còn dần yêu cả những điều bình dị."
+      ]
+    },
+    {
+      "id": 121,
+      "vi": "mặc dù ~ nhưng ~",
+      "pronNorth": "막 주 ~ 뇽 ~",
+      "pronSouth": null,
+      "ko": "~이긴 하지만 ~",
+      "sourceId": 2,
+      "contexts": [
+        "Mặc dù đó là lần đầu tiên gặp mình nhưng mọi người đã đối xử với mình rất ấm áp."
+      ]
+    },
+    {
+      "id": 122,
+      "vi": "một cách + 형용사",
+      "pronNorth": "못 까이 + 형용사",
+      "pronSouth": null,
+      "ko": "~하게, ~한 방식으로 (부사구)",
+      "sourceId": 2,
+      "contexts": [
+        "Để học tiếng Việt một cách nghiêm túc hơn, mình đã đến Hà Nội."
+      ]
+    },
+    {
+      "id": 123,
+      "vi": "nhận ra rằng",
+      "pronNorth": "년 라 랑",
+      "pronSouth": null,
+      "ko": "~라는 것을 깨닫다",
+      "sourceId": 2,
+      "contexts": [
+        "Mình nhận ra rằng tất cả bắt đầu từ một chiếc bánh xèo."
+      ]
+    },
+    {
+      "id": 124,
+      "vi": "khiến",
+      "pronNorth": "끼엔",
+      "pronSouth": null,
+      "ko": "~하게 만들다 (사역)",
+      "sourceId": 2,
+      "contexts": [
+        "Chính những chuyến đi ấy đã khiến mình càng yêu Việt Nam hơn."
+      ]
+    },
+    {
+      "id": 125,
+      "vi": "giúp + 사람 + V",
+      "pronNorth": "주프 + 사람 + V",
+      "pronSouth": null,
+      "ko": "~가 V하도록 도와주다",
+      "sourceId": 2,
+      "contexts": [
+        "Chính chiếc bánh xèo ấy đã giúp mình hiểu Việt Nam sâu sắc hơn."
+      ]
+    },
+    {
+      "id": 126,
+      "vi": "không thể quên được",
+      "pronNorth": "콩 테 꾸엔 드억",
+      "pronSouth": null,
+      "ko": "도저히 잊을 수 없다",
+      "sourceId": 2,
+      "contexts": [
+        "Mình vẫn không thể quên được hương vị của chiếc bánh xèo ấy."
+      ]
+    },
+    {
+      "id": 127,
+      "vi": "hương vị",
+      "pronNorth": "흐엉 비",
+      "pronSouth": null,
+      "ko": "맛과 향, 풍미",
+      "sourceId": 2,
+      "contexts": [
+        "Mình vẫn không thể quên được hương vị của chiếc bánh xèo ấy."
+      ]
+    },
+    {
+      "id": 128,
+      "vi": "bất ngờ",
+      "pronNorth": "밧 응어",
+      "pronSouth": null,
+      "ko": "놀라다, 뜻밖이다",
+      "sourceId": 2,
+      "contexts": [
+        "Lần đầu tiên ăn bánh xèo ở Đà Lạt, mình đã thực sự rất bất ngờ."
+      ]
+    },
+    {
+      "id": 129,
+      "vi": "cảm động",
+      "pronNorth": "깜 동",
+      "pronSouth": null,
+      "ko": "감동하다, 뭉클하다",
+      "sourceId": 2,
+      "contexts": [
+        "Mình thật sự rất cảm động."
+      ]
+    },
+    {
+      "id": 130,
+      "vi": "ấm áp",
+      "pronNorth": "엄 압",
+      "pronSouth": null,
+      "ko": "따뜻하다 (분위기·대접)",
+      "sourceId": 2,
+      "contexts": [
+        "Mọi người đã đối xử với mình rất ấm áp như một người trong gia đình."
+      ]
+    },
+    {
+      "id": 131,
+      "vi": "bình yên",
+      "pronNorth": "빈 이엔",
+      "pronSouth": null,
+      "ko": "평온하다, 마음이 고요하다",
+      "sourceId": 2,
+      "contexts": [
+        "Chỉ cần được ở Việt Nam thôi, mình cũng cảm thấy lòng mình rất bình yên."
+      ]
+    },
+    {
+      "id": 132,
+      "vi": "tràn đầy năng lượng",
+      "pronNorth": "쩐 더이 낭 르엉",
+      "pronSouth": null,
+      "ko": "에너지로 가득 차다",
+      "sourceId": 2,
+      "contexts": [
+        "Lòng mình rất bình yên và tràn đầy năng lượng."
+      ]
+    },
+    {
+      "id": 133,
+      "vi": "môn học tự chọn",
+      "pronNorth": "몬 혹 떠 쩐",
+      "pronSouth": null,
+      "ko": "선택 과목",
+      "sourceId": 2,
+      "contexts": [
+        "Trường đại học của mình mở một môn học tự chọn về Việt Nam."
+      ]
+    },
+    {
+      "id": 134,
+      "vi": "đăng ký",
+      "pronNorth": "당 끼",
+      "pronSouth": null,
+      "ko": "(수강) 신청하다, 등록하다",
+      "sourceId": 2,
+      "contexts": [
+        "Mình đăng ký ngay môn học ấy."
+      ]
+    },
+    {
+      "id": 135,
+      "vi": "theo học",
+      "pronNorth": "떼 혹",
+      "pronSouth": null,
+      "ko": "(기관에) 따라 들어가 배우다, 수강하다",
+      "sourceId": 2,
+      "contexts": [
+        "Mình đã đến Hà Nội theo học tại một trường ngôn ngữ."
+      ]
+    },
+    {
+      "id": 136,
+      "vi": "giao tiếp",
+      "pronNorth": "자오 띠엡",
+      "pronSouth": null,
+      "ko": "소통하다, 의사소통하다",
+      "sourceId": 2,
+      "contexts": [
+        "Ngày nào mình cũng giao tiếp bằng tiếng Việt với người Việt Nam."
+      ]
+    },
+    {
+      "id": 137,
+      "vi": "cứ từng chút một",
+      "pronNorth": "끄 뚱 쭉 못",
+      "pronSouth": null,
+      "ko": "조금씩, 차근차근",
+      "sourceId": 2,
+      "contexts": [
+        "Cứ từng chút một, mình sử dụng những gì mình đã học để giao tiếp."
+      ]
+    },
+    {
+      "id": 138,
+      "vi": "nghiêm túc",
+      "pronNorth": "응이엠 뚝",
+      "pronSouth": null,
+      "ko": "진지한, 본격적인",
+      "sourceId": 2,
+      "contexts": [
+        "Để học tiếng Việt một cách nghiêm túc hơn, mình đã đến Hà Nội."
+      ]
+    },
+    {
+      "id": 139,
+      "vi": "ẩm thực",
+      "pronNorth": "엄 턱",
+      "pronSouth": null,
+      "ko": "식문화, 요리 문화",
+      "sourceId": 2,
+      "contexts": [
+        "Càng tìm hiểu về ẩm thực Việt Nam, mình càng muốn biết nhiều hơn."
+      ]
+    },
+    {
+      "id": 140,
+      "vi": "bánh xèo",
+      "pronNorth": "반 쎄오",
+      "pronSouth": null,
+      "ko": "반쎄오 (베트남식 바삭 크레페)",
+      "sourceId": 2,
+      "contexts": [
+        "Mọi chuyện bắt đầu từ một chiếc bánh xèo."
+      ]
+    },
+    {
+      "id": 141,
+      "vi": "rau thơm",
+      "pronNorth": "자우 텀",
+      "pronSouth": null,
+      "ko": "향채, 생허브",
+      "sourceId": 2,
+      "contexts": [
+        "Mình cũng rất thích các loại rau thơm của Việt Nam."
+      ]
+    },
+    {
+      "id": 142,
+      "vi": "kinh giới",
+      "pronNorth": "낑 조이",
+      "pronSouth": null,
+      "ko": "배초향 (베트남 허브)",
+      "sourceId": 2,
+      "contexts": [
+        "Mình có thể ăn rất nhiều loại rau thơm khác như kinh giới, tía tô, rau răm."
+      ]
+    },
+    {
+      "id": 143,
+      "vi": "tía tô",
+      "pronNorth": "띠아 또",
+      "pronSouth": null,
+      "ko": "차조기 (자소)",
+      "sourceId": 2,
+      "contexts": [
+        "Mình có thể ăn rất nhiều loại rau thơm khác như kinh giới, tía tô, rau răm."
+      ]
+    },
+    {
+      "id": 144,
+      "vi": "rau răm",
+      "pronNorth": "자우 잠",
+      "pronSouth": null,
+      "ko": "라우람 (베트남 고수류 허브)",
+      "sourceId": 2,
+      "contexts": [
+        "Mình có thể ăn rất nhiều loại rau thơm khác như kinh giới, tía tô, rau răm."
+      ]
+    },
+    {
+      "id": 145,
+      "vi": "chuyến đi",
+      "pronNorth": "쭈옌 디",
+      "pronSouth": null,
+      "ko": "여행, 여정 (한 차례의 여행)",
+      "sourceId": 2,
+      "contexts": [
+        "Mình ăn trong chuyến đi Đà Lạt cách đây ba năm."
+      ]
+    },
+    {
+      "id": 146,
+      "vi": "phong cảnh",
+      "pronNorth": "퐁 까잉",
+      "pronSouth": null,
+      "ko": "풍경, 경치",
+      "sourceId": 2,
+      "contexts": [
+        "Mình không chỉ bị thu hút bởi những phong cảnh đẹp."
+      ]
+    },
+    {
+      "id": 147,
+      "vi": "bầu không khí",
+      "pronNorth": "버우 콩 키",
+      "pronSouth": null,
+      "ko": "분위기 (직역: 공기의 덩어리)",
+      "sourceId": 2,
+      "contexts": [
+        "Mỗi nơi lại mang một vẻ đẹp và một bầu không khí hoàn toàn khác nhau."
+      ]
+    },
+    {
+      "id": 148,
+      "vi": "ven đường",
+      "pronNorth": "벤 드엉",
+      "pronSouth": null,
+      "ko": "길가에, 도로를 따라",
+      "sourceId": 2,
+      "contexts": [
+        "Những chiếc ghế nhựa nhỏ ven đường."
+      ]
+    },
+    {
+      "id": 149,
+      "vi": "sau khi + V",
+      "pronNorth": "사우 키 + V",
+      "pronSouth": null,
+      "ko": "~한 후에",
+      "sourceId": 2,
+      "contexts": [
+        "Sau khi tốt nghiệp đại học, mình sẽ sang Việt Nam để sống cả đời luôn."
+      ]
+    },
+    {
+      "id": 150,
+      "vi": "tốt nghiệp",
+      "pronNorth": "톳 응히엡",
+      "pronSouth": "톡 응히엡",
+      "ko": "졸업하다",
+      "sourceId": 2,
+      "contexts": [
+        "Sau khi tốt nghiệp đại học, mình sẽ sang Việt Nam."
+      ]
+    },
+    {
+      "id": 151,
+      "vi": "cả đời luôn",
+      "pronNorth": "까 더이 루온",
+      "pronSouth": null,
+      "ko": "평생 쭉 (강조)",
+      "sourceId": 2,
+      "contexts": [
+        "Mình sẽ sang Việt Nam để sống cả đời luôn."
+      ]
+    },
+    {
+      "id": 152,
+      "vi": "hạnh phúc",
+      "pronNorth": "한 푹",
+      "pronSouth": null,
+      "ko": "행복하다",
+      "sourceId": 2,
+      "contexts": [
+        "Chỉ cần được ở Việt Nam thôi là mình thấy hạnh phúc lắm."
+      ]
+    },
+    {
+      "id": 153,
+      "vi": "chia sẻ",
+      "pronNorth": "찌아 세",
+      "pronSouth": null,
+      "ko": "나누다, 공유하다 (이야기·경험)",
+      "sourceId": 2,
+      "contexts": [
+        "Hôm nay mình muốn chia sẻ câu chuyện về việc tại sao mình lại muốn sống ở Việt Nam."
+      ]
+    },
+    {
+      "id": 154,
+      "vi": "việc",
+      "pronNorth": "비엑",
+      "pronSouth": null,
+      "ko": "~한다는 것 (절의 명사화)",
+      "sourceId": 2,
+      "contexts": [
+        "Câu chuyện về việc tại sao mình lại muốn sống ở Việt Nam."
+      ]
+    },
+    {
+      "id": 155,
+      "vi": "đối xử",
+      "pronNorth": "도이 쓰",
+      "pronSouth": null,
+      "ko": "대하다, 대접하다 (태도)",
+      "sourceId": 2,
+      "contexts": [
+        "Mọi người đã đối xử với mình rất ấm áp."
+      ]
+    },
+    {
+      "id": 156,
+      "vi": "thu hút",
+      "pronNorth": "투 훗",
+      "pronSouth": null,
+      "ko": "끌리다, 매료되다",
+      "sourceId": 2,
+      "contexts": [
+        "Mình không chỉ bị thu hút bởi những phong cảnh đẹp."
+      ]
+    },
+    {
+      "id": 157,
+      "vi": "bình dị",
+      "pronNorth": "빈 지",
+      "pronSouth": null,
+      "ko": "소박한, 평범한",
+      "sourceId": 2,
+      "contexts": [
+        "Mình dần yêu cả những điều bình dị trong cuộc sống hàng ngày."
+      ]
+    },
+    {
+      "id": 158,
+      "vi": "tự hào",
+      "pronNorth": "뜨 하오",
+      "pronSouth": null,
+      "ko": "자랑스럽다",
+      "sourceId": 2,
+      "contexts": [
+        "Mỗi lần như vậy, mình đều cảm thấy rất vui, rất tự hào."
+      ]
+    },
+    {
+      "id": 159,
+      "vi": "sâu sắc",
+      "pronNorth": "써우 삭",
+      "pronSouth": null,
+      "ko": "깊고 깊게, 심오하게",
+      "sourceId": 2,
+      "contexts": [
+        "Chiếc bánh xèo ấy đã giúp mình hiểu Việt Nam sâu sắc hơn."
+      ]
+    },
+    {
+      "id": 160,
+      "vi": "du lịch",
+      "pronNorth": "즈 릭",
+      "pronSouth": null,
+      "ko": "여행하다, 관광(하다)",
+      "sourceId": 2,
+      "contexts": [
+        "Mình đã đến Đà Nẵng du lịch."
+      ]
     }
   ]
 }
