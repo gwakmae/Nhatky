@@ -7,7 +7,6 @@ const ListView = (() => {
   let sortMode = SortMode.HIERARCHY;
   let searchText = '';
   const checkedSourceIds = new Set();   // 비어 있으면 전체 보기
-  let selectedEntry = null;
   let highlightKeys = null;             // 하이라이트할 문장 키 집합
 
   const $ = sel => document.querySelector(sel);
@@ -55,6 +54,8 @@ const ListView = (() => {
   }
 
   // ── 필터 + 정렬 + 그리기 ──
+  // 단어장 탭이 화면에 없을 때(가져오기/설정 탭)는 개수 갱신만 하고
+  // 그리기는 건너뛴다. (탭 전환 시 render가 다시 refresh를 호출함)
   function refresh() {
     const all = Data.state.entries;
     const q = searchText.trim().toLowerCase();
@@ -72,12 +73,15 @@ const ListView = (() => {
     let sorted;
     switch (sortMode) {
       case SortMode.HIERARCHY: sorted = buildHierarchy(filtered); break;
-      case SortMode.NEWEST:    sorted = [...filtered].sort((a, b) => b.id - a.id).map(e => ({ entry: e, child: false })); break;
-      case SortMode.ALPHA:     sorted = [...filtered].sort((a, b) => a.vi.localeCompare(b.vi, 'vi')).map(e => ({ entry: e, child: false })); break;
-      case SortMode.FREQ:      sorted = [...filtered].sort((a, b) => (b.contexts?.length || 0) - (a.contexts?.length || 0)).map(e => ({ entry: e, child: false })); break;
+      case SortMode.NEWEST: sorted = [...filtered].sort((a, b) => b.id - a.id).map(e => ({ entry: e, child: false })); break;
+      case SortMode.ALPHA: sorted = [...filtered].sort((a, b) => a.vi.localeCompare(b.vi, 'vi')).map(e => ({ entry: e, child: false })); break;
+      case SortMode.FREQ: sorted = [...filtered].sort((a, b) => (b.contexts?.length || 0) - (a.contexts?.length || 0)).map(e => ({ entry: e, child: false })); break;
+      default: sorted = filtered.map(e => ({ entry: e, child: false }));
     }
 
-    drawList(sorted);
+    // 목록이 화면에 있을 때만 그린다
+    if ($('#entry-list')) drawList(sorted);
+
     App.updateHeader(filtered.length, all.length);
     updateSourceButton();
   }
@@ -127,6 +131,7 @@ const ListView = (() => {
   // ── 목록 그리기 ──
   function drawList(items) {
     const host = $('#entry-list');
+    if (!host) return;
     host.innerHTML = '';
 
     const frag = document.createDocumentFragment();
@@ -161,14 +166,14 @@ const ListView = (() => {
   function highlightGroup(entry) {
     if (!(entry.contexts || []).length) return;
     highlightKeys = new Set(entry.contexts.map(c => Parser.normalizeKey(c)));
-    refreshKeepHighlight();
+    applyHighlights();
   }
   function clearHighlights() {
     if (!highlightKeys) return;
     highlightKeys = null;
-    refreshKeepHighlight();
+    applyHighlights();
   }
-  function refreshKeepHighlight() {
+  function applyHighlights() {
     document.querySelectorAll('.entry-item').forEach(el => {
       const entry = Data.state.entries.find(e => e.id === +el.dataset.id);
       const on = !!(highlightKeys && entry && (entry.contexts || []).some(c => highlightKeys.has(Parser.normalizeKey(c))));
@@ -178,7 +183,6 @@ const ListView = (() => {
 
   // ── 상세 카드 ──
   function openDetail(entry) {
-    selectedEntry = entry;
     const source = Data.state.sources.find(s => s.id === entry.sourceId);
 
     const modal = document.createElement('div');
@@ -218,7 +222,6 @@ const ListView = (() => {
     });
   }
   function closeDetail() {
-    selectedEntry = null;
     $('#detail-modal')?.remove();
   }
 
@@ -247,21 +250,26 @@ const ListView = (() => {
     modal.querySelector('#m-cancel').addEventListener('click', () => modal.remove());
     modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
     modal.querySelector('#m-save').addEventListener('click', () => {
-      const vi = modal.querySelector('#m-vi').value.trim();
-      if (!vi) { App.toast('베트남어 원문은 꼭 입력해 주세요.', true); return; }
+      try {
+        const vi = modal.querySelector('#m-vi').value.trim();
+        if (!vi) { App.toast('베트남어 원문은 꼭 입력해 주세요.', true); return; }
 
-      const pronN = modal.querySelector('#m-pron-n').value.trim();
-      let pronS = modal.querySelector('#m-pron-s').value.trim();
-      if (!pronS || pronS === pronN) pronS = null;
-      const ctx = modal.querySelector('#m-ctx').value.trim();
+        const pronN = modal.querySelector('#m-pron-n').value.trim();
+        let pronS = modal.querySelector('#m-pron-s').value.trim();
+        if (!pronS || pronS === pronN) pronS = null;
+        const ctx = modal.querySelector('#m-ctx').value.trim();
 
-      const parsed = [{ vi, pronNorth: pronN, pronSouth: pronS, ko: modal.querySelector('#m-ko').value.trim(), contexts: ctx ? [ctx] : [] }];
-      const { added, merged } = Merger.importEntries(parsed, null);
+        const parsed = [{ vi, pronNorth: pronN, pronSouth: pronS, ko: modal.querySelector('#m-ko').value.trim(), contexts: ctx ? [ctx] : [] }];
+        const { added, merged } = Merger.importEntries(parsed, null);
 
-      App.setSyncDirty();
-      modal.remove();
-      refresh();
-      App.toast(added > 0 ? `'${vi}' 등록됨` : merged > 0 ? `'${vi}' 기존 항목에 합쳐짐` : `'${vi}' 이미 동일한 내용 있음`);
+        App.setSyncDirty();
+        modal.remove();
+        refresh();
+        App.toast(added > 0 ? `'${vi}' 등록됨` : merged > 0 ? `'${vi}' 기존 항목에 합쳐짐` : `'${vi}' 이미 동일한 내용 있음`);
+      } catch (err) {
+        console.error(err);
+        App.toast('저장 중 오류: ' + err.message, true);
+      }
     });
   }
 
@@ -360,8 +368,8 @@ const ListView = (() => {
     const template = $('#prompt-preview').value;
     const text = sentence
       ? (template.includes(PROMPT_PLACEHOLDER)
-          ? template.replace(PROMPT_PLACEHOLDER, sentence)
-          : template + '\n\n[베트남어 문장]\n' + sentence)
+        ? template.replace(PROMPT_PLACEHOLDER, sentence)
+        : template + '\n\n[베트남어 문장]\n' + sentence)
       : template;
     await copyText(text, '문장 포함 복사됨 ✓');
   }

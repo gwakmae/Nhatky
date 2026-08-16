@@ -57,7 +57,6 @@ const ImportView = (() => {
       const isNew = newRadio.checked;
       newName.disabled = !isNew;
       existSelect.disabled = isNew || !sources.length;
-      (isNew ? newName : $('#import-text')).focus();
     }
     newRadio.addEventListener('change', updateState);
     existRadio.addEventListener('change', updateState);
@@ -66,41 +65,51 @@ const ImportView = (() => {
     $('#btn-do-import').addEventListener('click', doImport);
   }
 
+  function showResult(msg, isError = false) {
+    const box = $('#import-result');
+    box.style.display = 'block';
+    box.style.borderColor = isError ? 'var(--danger)' : 'var(--line)';
+    box.textContent = msg;
+  }
+
   function doImport() {
-    const text = $('#import-text').value;
-    const parsed = Parser.parse(text);
-    const resultBox = $('#import-result');
+    try {
+      const text = $('#import-text').value;
+      const parsed = Parser.parse(text);
 
-    if (parsed.length === 0) {
-      resultBox.style.display = 'block';
-      resultBox.textContent = '등록할 항목을 찾지 못했습니다.\nAI 출력 맨 끝의 @@APP-DATA@@ 블록을 확인해 주세요.';
-      return;
+      if (parsed.length === 0) {
+        showResult('등록할 항목을 찾지 못했습니다.\nAI 출력 맨 끝의 @@APP-DATA@@ 블록을 확인해 주세요.', true);
+        return;
+      }
+
+      let source;
+      if ($('#src-new').checked) {
+        const name = $('#src-new-name').value.trim()
+          || '가져오기 ' + new Date().toLocaleString('ko-KR');
+        source = { id: 0, name };   // id 0이면 Merger가 새로 발급
+      } else {
+        const id = +$('#src-existing-select').value;
+        source = Data.state.sources.find(s => s.id === id);
+        if (!source) { showResult('추가할 기존 출처를 선택해 주세요.', true); return; }
+      }
+
+      const { added, merged, skipped } = Merger.importEntries(parsed, source);
+      App.setSyncDirty();
+      ListView.refresh();
+
+      showResult(
+        `출처: ${source.name}\n\n` +
+        `새 단어 ${added}개 추가\n` +
+        `기존 단어에 맥락 추가 ${merged}개\n` +
+        `완전 중복 무시 ${skipped}개\n\n` +
+        `※ 아직 GitHub에 저장된 것은 아닙니다. 설정 탭의 [⬆ GitHub에 지금 저장]을 눌러야 영구 저장됩니다.`);
+
+      $('#import-text').value = '';
+      App.toast(`가져오기 완료: 새 ${added}개`);
+    } catch (err) {
+      console.error(err);
+      showResult('등록 중 오류가 발생했습니다:\n' + err.message, true);
     }
-
-    let source;
-    if ($('#src-new').checked) {
-      const name = $('#src-new-name').value.trim()
-        || '가져오기 ' + new Date().toLocaleString('ko-KR');
-      source = { id: 0, name };   // id 0이면 Merger가 새로 발급
-    } else {
-      const id = +$('#src-existing-select').value;
-      source = Data.state.sources.find(s => s.id === id);
-      if (!source) { App.toast('추가할 기존 출처를 선택해 주세요.', true); return; }
-    }
-
-    const { added, merged, skipped } = Merger.importEntries(parsed, source);
-    App.setSyncDirty();
-    ListView.refresh();
-
-    resultBox.style.display = 'block';
-    resultBox.textContent =
-      `출처: ${source.name}\n\n` +
-      `새 단어 ${added}개 추가\n` +
-      `기존 단어에 맥락 추가 ${merged}개\n` +
-      `완전 중복 무시 ${skipped}개`;
-
-    $('#import-text').value = '';
-    App.toast(`가져오기 완료: 새 ${added}개`);
   }
 
   return { render };
