@@ -1,6 +1,6 @@
 'use strict';
 
-// ImportWindow 이식 — AI 결과 붙여넣기 + 새 출처/기존 출처 선택
+// ImportWindow 이식 — AI 결과 붙여넣기 + 새 출처/기존 출처 선택 + 즉시 GitHub 저장
 const ImportView = (() => {
   const $ = sel => document.querySelector(sel);
 
@@ -9,7 +9,8 @@ const ImportView = (() => {
       <div class="form-view">
         <h2>AI 결과 붙여넣기 (한 번에 등록)</h2>
         <p style="font-size:13px;color:#777;margin:0">
-          AI가 출력한 전체 결과를 그대로 붙여넣으세요. <code>@@APP-DATA@@</code> 블록을 찾아 항목들을 한 번에 등록합니다.
+          AI가 출력한 전체 결과를 그대로 붙여넣으세요. <code>@@APP-DATA@@</code> 블록을 찾아 항목들을 한 번에 등록하고,
+          곧바로 GitHub에 저장합니다.
         </p>
 
         <div class="source-choice">
@@ -72,7 +73,15 @@ const ImportView = (() => {
     box.textContent = msg;
   }
 
-  function doImport() {
+  function hasGitHubSettings() {
+    const s = Data.loadSettings();
+    return !!(s.owner && s.repo && s.token);
+  }
+
+  async function doImport() {
+    const btn = $('#btn-do-import');
+    btn.disabled = true;
+
     try {
       const text = $('#import-text').value;
       const parsed = Parser.parse(text);
@@ -93,22 +102,45 @@ const ImportView = (() => {
         if (!source) { showResult('추가할 기존 출처를 선택해 주세요.', true); return; }
       }
 
+      // 1) 메모리에 병합
       const { added, merged, skipped } = Merger.importEntries(parsed, source);
       App.setSyncDirty();
       ListView.refresh();
 
-      showResult(
+      const summary =
         `출처: ${source.name}\n\n` +
         `새 단어 ${added}개 추가\n` +
         `기존 단어에 맥락 추가 ${merged}개\n` +
-        `완전 중복 무시 ${skipped}개\n\n` +
-        `※ 아직 GitHub에 저장된 것은 아닙니다. 설정 탭의 [⬆ GitHub에 지금 저장]을 눌러야 영구 저장됩니다.`);
+        `완전 중복 무시 ${skipped}개`;
 
-      $('#import-text').value = '';
-      App.toast(`가져오기 완료: 새 ${added}개`);
+      // 2) GitHub에 즉시 저장
+      if (!hasGitHubSettings()) {
+        showResult(summary +
+          `\n\n⚠ GitHub 설정이 없어 이 브라우저 메모리에만 반영됐습니다.` +
+          `\n설정 탭에서 Owner / Repo / Token을 입력하면 다음부터 자동 저장됩니다.`, true);
+        App.toast(`가져오기 완료: 새 ${added}개 (로컬만)`);
+        return;
+      }
+
+      showResult(summary + `\n\n⏳ GitHub에 저장 중...`);
+      try {
+        await Data.save();
+        App.setSyncClean();
+        showResult(summary + `\n\n✓ GitHub에 저장 완료`);
+        App.toast(`가져오기 + 저장 완료: 새 ${added}개`);
+        $('#import-text').value = '';
+      } catch (err) {
+        console.error(err);
+        showResult(summary +
+          `\n\n✗ GitHub 저장 실패: ${err.message}` +
+          `\n\n데이터는 메모리에 살아 있습니다. 설정 탭의 [⬆ GitHub에 지금 저장]으로 다시 시도하세요.`, true);
+        App.toast('등록됐지만 GitHub 저장 실패', true);
+      }
     } catch (err) {
       console.error(err);
       showResult('등록 중 오류가 발생했습니다:\n' + err.message, true);
+    } finally {
+      btn.disabled = false;
     }
   }
 
