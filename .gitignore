@@ -1,0 +1,19 @@
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+# IDE/에디터 설정 파일
+.vscode/
+.idea/
+*.sublime-project
+# 언어/프레임워크 (JavaScript/Web)
+node_modules/
+dist/
+build/
+# 빌드 산출물 및 의존성
+*.map
+coverage/
+temp/
+# 로그 및 임시 파일
+*.log
+tmp/
+*.tmp
