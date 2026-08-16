@@ -1,19 +1,26 @@
 # 운영체제 파일
 .DS_Store
 Thumbs.db
+ehthumbs.db
 # IDE/에디터 설정 파일
 .vscode/
 .idea/
 *.sublime-project
-# 언어/프레임워크 (JavaScript/Web)
+*.sublime-workspace
+# 언어/프레임워크 및 빌드 산출물
+# (알 수 없는 프로젝트를 위한 일반적인 웹/프론트엔드 설정)
 node_modules/
 dist/
 build/
-# 빌드 산출물 및 의존성
-*.map
-coverage/
-temp/
-# 로그 및 임시 파일
+out/
 *.log
+# 빌드/의존성 관리 파일 및 캐시
+package-lock.json
+yarn.lock
+npm-debug.log*
+.env
+.DS_Store
+# 로그 및 임시 파일
 tmp/
+temp/
 *.tmp

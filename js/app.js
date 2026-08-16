@@ -57,6 +57,9 @@ const App = (() => {
     document.querySelectorAll('.nav-button').forEach(b =>
       b.addEventListener('click', () => switchView(b.dataset.view)));
 
+    // 브랜드(NhatKy) 클릭 → 메인(단어장)으로
+    document.querySelector('.brand').addEventListener('click', () => switchView('list'));
+
     // 저장 안 된 채 페이지를 떠나려 하면 경고
     window.addEventListener('beforeunload', e => {
       if (Data.isDirty()) { e.preventDefault(); e.returnValue = ''; }

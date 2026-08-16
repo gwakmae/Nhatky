@@ -17,8 +17,9 @@
   background: var(--green);
   color: #fff;
 }
-.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
-.brand-mark { font-size: 22px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; cursor: pointer; }
+.brand:hover .brand-mark { transform: scale(1.1); }
+.brand-mark { font-size: 22px; transition: transform .15s; }
 .brand strong { font-size: 17px; margin-right: 8px; }
 #header-count { font-size: 13px; color: #cfe0d6; white-space: nowrap; }
 
@@ -50,7 +51,7 @@
 }
 .view.active { display: flex; }
 
-/* ── 하단 탭 ── */
+/* ── 하단 탭 (모바일 기본) ── */
 .bottom-nav {
   height: var(--nav-h);
   flex: none;
@@ -122,8 +123,35 @@
 .prompt-panel .prompt-buttons { display: flex; gap: 8px; }
 .prompt-panel .prompt-buttons button { flex: 1; }
 
-/* 넓은 화면에서는 프롬프트를 왼쪽 열로 */
+/* ═══ 데스크탑 모드 (900px 이상) ═══ */
 @media (min-width: 900px) {
+  /* 탭 바를 상단으로 이동 — 데스크탑 프로그램처럼 */
+  .bottom-nav {
+    order: -1;
+    height: 42px;
+    border-top: none;
+    border-bottom: 1px solid var(--line);
+    background: var(--beige-deep);
+    justify-content: flex-start;
+    padding: 0 12px;
+    gap: 4px;
+  }
+  .nav-button {
+    flex: none;
+    flex-direction: row;
+    gap: 6px;
+    font-size: 14px;
+    padding: 0 18px;
+    border-radius: 0;
+    height: 100%;
+  }
+  .nav-button .nav-icon { font-size: 16px; }
+  .nav-button.active {
+    background: var(--green);
+    color: #fff;
+  }
+
+  /* 단어장: 프롬프트 왼쪽 열 + 목록 오른쪽 */
   #view-list { flex-direction: row !important; }
   #view-list .prompt-panel {
     width: 330px;
@@ -133,4 +161,17 @@
     overflow-y: auto;
   }
   #view-list .list-column { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+
+  /* 단어 목록은 가운데 정렬된 열로 */
+  #view-list .entry-scroll {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* 폼 탭은 조금 더 넓게 */
+  .form-view { max-width: 860px; }
+
+  /* 토스트는 하단 탭이 없으므로 더 아래로 */
+  .toast-container { bottom: 24px; }
 }
