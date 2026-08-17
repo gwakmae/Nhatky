@@ -75,6 +75,14 @@
 .nav-button.active { color: var(--green); font-weight: bold; }
 
 /* ── 단어장 탭 내부 레이아웃 ── */
+/* 목록 열: 모바일·데스크탑 공통 — 이 규칙이 없으면 모바일에서 스크롤 불가 */
+#view-list .list-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;   /* 세로 flex에서 자식이 넘치지 않게 하는 핵심 */
+}
+
 #view-list .list-toolbar {
   flex: none;
   display: flex;
@@ -91,6 +99,7 @@
 
 #view-list .entry-scroll {
   flex: 1;
+  min-height: 0;   /* flex 부모 안에서 스크롤이 실제로 생기도록 */
   overflow-y: auto;
   padding: 8px 12px 20px;
 }
@@ -160,7 +169,8 @@
     border-right: 1px solid var(--line);
     overflow-y: auto;
   }
-  #view-list .list-column { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  /* 가로 배치에서는 min-width가 필요 (공통 규칙의 min-height와 별개) */
+  #view-list .list-column { min-width: 0; }
 
   /* 단어 목록은 가운데 정렬된 열로 */
   #view-list .entry-scroll {
