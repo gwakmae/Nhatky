@@ -10,6 +10,11 @@
       "id": 2,
       "name": "한국인1 유튜브",
       "createdUtc": "2026-08-16T17:02:32.211Z"
+    },
+    {
+      "id": 3,
+      "name": "8일중 7일차 베트남어 단어 80 개 - 송유리",
+      "createdUtc": "2026-08-18T08:55:42.438Z"
     }
   ],
   "entries": [
@@ -1035,7 +1040,8 @@
       "ko": "전화기",
       "sourceId": 1,
       "contexts": [
-        "Tôi gọi điện thoại cho bạn."
+        "Tôi gọi điện thoại cho bạn.",
+        "Điện thoại là cái dùng điện để nói chuyện."
       ]
     },
     {
@@ -1079,18 +1085,20 @@
       "ko": "전화를 걸다",
       "sourceId": 1,
       "contexts": [
-        "Tôi gọi điện thoại cho bạn."
+        "Tôi gọi điện thoại cho bạn.",
+        "Gọi điện thoại rồi nói chuyện."
       ]
     },
     {
       "id": 98,
       "vi": "nói chuyện",
       "pronNorth": "너이 쥐엔",
-      "pronSouth": null,
-      "ko": "이야기하다; 대화하다",
+      "pronSouth": "노이 쭈엥",
+      "ko": "이야기하다; 대화하다; 대화하다, 이야기하다",
       "sourceId": 1,
       "contexts": [
-        "Tôi gọi điện rồi nói chuyện với bạn."
+        "Tôi gọi điện rồi nói chuyện với bạn.",
+        "Gọi điện thoại rồi nói chuyện."
       ]
     },
     {
@@ -1112,7 +1120,8 @@
       "ko": "배터리를 충전하다",
       "sourceId": 1,
       "contexts": [
-        "Pin yếu nên tôi sạc pin."
+        "Pin yếu nên tôi sạc pin.",
+        "Nói chuyện lâu thì phải sạc pin."
       ]
     },
     {
@@ -1120,10 +1129,11 @@
       "vi": "bỏ vào",
       "pronNorth": "머 와우",
       "pronSouth": null,
-      "ko": "넣다",
+      "ko": "넣다; 안에 넣다",
       "sourceId": 1,
       "contexts": [
-        "Tôi bỏ áo vào tủ."
+        "Tôi bỏ áo vào tủ.",
+        "Bỏ đồ vào tủ."
       ]
     },
     {
@@ -1134,7 +1144,8 @@
       "ko": "꺼내다",
       "sourceId": 1,
       "contexts": [
-        "Tôi lấy áo ra."
+        "Tôi lấy áo ra.",
+        "Lấy tấm thảm ra khỏi tủ."
       ]
     },
     {
@@ -1200,7 +1211,8 @@
       "ko": "불을 끄다",
       "sourceId": 1,
       "contexts": [
-        "Tôi tắt đèn rồi ngủ."
+        "Tôi tắt đèn rồi ngủ.",
+        "Tắt đèn rồi đi ngủ."
       ]
     },
     {
@@ -1747,11 +1759,12 @@
       "id": 154,
       "vi": "việc",
       "pronNorth": "비엑",
-      "pronSouth": null,
-      "ko": "~한다는 것 (절의 명사화)",
+      "pronSouth": "위익",
+      "ko": "~한다는 것 (절의 명사화); 일",
       "sourceId": 2,
       "contexts": [
-        "Câu chuyện về việc tại sao mình lại muốn sống ở Việt Nam."
+        "Câu chuyện về việc tại sao mình lại muốn sống ở Việt Nam.",
+        "Tôi muốn nhận việc lớn."
       ]
     },
     {
@@ -1818,6 +1831,182 @@
       "sourceId": 2,
       "contexts": [
         "Mình đã đến Đà Nẵng du lịch."
+      ]
+    },
+    {
+      "id": 161,
+      "vi": "gọi món",
+      "pronNorth": "고이 먼",
+      "pronSouth": null,
+      "ko": "음식을 주문하다",
+      "sourceId": 3,
+      "contexts": [
+        "Đói quá nên gọi món."
+      ]
+    },
+    {
+      "id": 162,
+      "vi": "mở đèn",
+      "pronNorth": "머 덴",
+      "pronSouth": null,
+      "ko": "불을 켜다",
+      "sourceId": 3,
+      "contexts": [
+        "Mở đèn lên rồi mới làm việc."
+      ]
+    },
+    {
+      "id": 163,
+      "vi": "bấm nút",
+      "pronNorth": "밤 눗",
+      "pronSouth": null,
+      "ko": "버튼을 누르다",
+      "sourceId": 3,
+      "contexts": [
+        "Bấm nút để mở đèn."
+      ]
+    },
+    {
+      "id": 164,
+      "vi": "máy vi tính",
+      "pronNorth": "마이 비 띵",
+      "pronSouth": null,
+      "ko": "컴퓨터",
+      "sourceId": 3,
+      "contexts": [
+        "Tôi dùng máy vi tính để làm việc."
+      ]
+    },
+    {
+      "id": 165,
+      "vi": "máy tính",
+      "pronNorth": "마이 띵",
+      "pronSouth": null,
+      "ko": "계산기, 또는 컴퓨터를 줄여 이르는 말",
+      "sourceId": 3,
+      "contexts": [
+        "Máy tính vốn là máy để tính."
+      ]
+    },
+    {
+      "id": 166,
+      "vi": "món ăn",
+      "pronNorth": "먼 안",
+      "pronSouth": null,
+      "ko": "음식, 요리",
+      "sourceId": 3,
+      "contexts": [
+        "Món ăn này ngon quá."
+      ]
+    },
+    {
+      "id": 167,
+      "vi": "đồ ăn",
+      "pronNorth": "도 안",
+      "pronSouth": "조 안",
+      "ko": "먹을 것, 먹을거리",
+      "sourceId": 3,
+      "contexts": [
+        "Tôi đi mua đồ ăn."
+      ]
+    },
+    {
+      "id": 168,
+      "vi": "tủ lạnh",
+      "pronNorth": "뚜 랭",
+      "pronSouth": "뚜 란",
+      "ko": "냉장고",
+      "sourceId": 3,
+      "contexts": [
+        "Cất đồ ăn thừa vào tủ lạnh."
+      ]
+    },
+    {
+      "id": 169,
+      "vi": "làm việc",
+      "pronNorth": "람 비엑",
+      "pronSouth": "람 위익",
+      "ko": "일하다",
+      "sourceId": 3,
+      "contexts": [
+        "Tôi đang làm việc."
+      ]
+    },
+    {
+      "id": 170,
+      "vi": "họp",
+      "pronNorth": "홉",
+      "pronSouth": null,
+      "ko": "회의하다, 모이다",
+      "sourceId": 3,
+      "contexts": [
+        "Chiều nay chúng ta họp."
+      ]
+    },
+    {
+      "id": 171,
+      "vi": "xem phim",
+      "pronNorth": "쌤 핌",
+      "pronSouth": null,
+      "ko": "영화를 보다",
+      "sourceId": 3,
+      "contexts": [
+        "Làm việc xong thì xem phim."
+      ]
+    },
+    {
+      "id": 172,
+      "vi": "mua sắm",
+      "pronNorth": "무어 샴",
+      "pronSouth": null,
+      "ko": "쇼핑하다",
+      "sourceId": 3,
+      "contexts": [
+        "Rảnh rỗi thì mua sắm."
+      ]
+    },
+    {
+      "id": 173,
+      "vi": "nhận",
+      "pronNorth": "년",
+      "pronSouth": "냥",
+      "ko": "받다",
+      "sourceId": 3,
+      "contexts": [
+        "Em nhận đồ ăn giúp chị."
+      ]
+    },
+    {
+      "id": 174,
+      "vi": "nhận phòng",
+      "pronNorth": "년 퐁",
+      "pronSouth": "냥 퐁",
+      "ko": "체크인하다",
+      "sourceId": 3,
+      "contexts": [
+        "Khách nhận phòng lúc hai giờ."
+      ]
+    },
+    {
+      "id": 175,
+      "vi": "chuẩn bị",
+      "pronNorth": "쭈언 비",
+      "pronSouth": "쭈엉 비",
+      "ko": "준비하다",
+      "sourceId": 3,
+      "contexts": [
+        "Em chuẩn bị đồ ăn đi."
+      ]
+    },
+    {
+      "id": 176,
+      "vi": "cất vào tủ lạnh",
+      "pronNorth": "껏 바오 뚜 랭",
+      "pronSouth": "껏 바오 뚜 란",
+      "ko": "냉장고에 넣어 보관하다",
+      "sourceId": 3,
+      "contexts": [
+        "Đồ ăn thừa thì cất vào tủ lạnh."
       ]
     }
   ]
